@@ -1,0 +1,45 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+wired-input {
+	width: 200px;
+}
+
+main {
+	padding: 16px;
+	text-align: center;
+}
+
+section {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+wired-button {
+	background: yellow;
+	color: red;
+	margin: 8px;
+}
+wired-input {
+	width: 200px;
+	font-family: inherit;
+}
+
+/** LIST ITEM STYLES **/
+
+.listItem-container {
+	display: flex;
+}
+
+.listItem-container wired-card {
+	flex: 1;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	display: block;
+}
